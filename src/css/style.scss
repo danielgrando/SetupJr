@@ -1,0 +1,131 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+$laranja1: #FFB300;
+$laranja2: #E6BE5D;
+$laranja3: linear-gradient(to bottom, $laranja1, $laranja2);
+$preto: black;
+$azul1: #0695F5;
+$azul2: rgba(44,168,237,0.38);
+$azul3:rgba(73,176,230,0);
+$azul4: linear-gradient(to bottom,$azul1,$azul2,$azul3);
+$preto: #1A1A1A;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    background-color: $azul1;
+}
+.navbar-brand{
+    color:white;
+
+}
+.navbar-brand:hover{
+    color:whitesmoke;
+}
+#btn-top{
+    background-color: $laranja1;
+    border: none;
+    font-weight: 300;
+}
+header .nav-item a{
+    color: $preto;
+    text-decoration: none;
+    font-weight: 300;
+}
+header .nav-item a::after{
+    content: "";
+    display: block;
+	width: 0px;
+	height: 2px;
+	background: $laranja1;
+	transition: width .3s;
+}
+header .nav-item a:hover::after{
+	width: 100%;
+	transition: width .3s;
+}
+.titulos{
+    background: $azul4;
+    height: 100vh;
+    width: 100%;
+}
+#titulo{
+    font-size: 80px;
+    margin-top: 100px;
+    color: $laranja1;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
+    letter-spacing: 6px;
+}
+#sub{
+    font-size: 37px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
+}
+#btn-titulo{
+    background: $laranja3;
+    color: white;
+    width: 230px; 
+    position: absolute;
+    margin-top: 120px;
+    border: none;
+}
+
+
+
+//SERVIÇOS
+
+
+.titulos-section{
+    color:$laranja1;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.hr{
+    width: 175px;
+    height: 3px;
+    background-color: $azul1;
+    border: none;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagens{
+    width: 65px;
+    height: 65px;
+}
+.conteudo-servicos{
+    margin-top: 80px;
+}
+.titulo-servicos{
+    font-weight: 700;
+}
+.texto{
+    font-size: 15px;
+}
+
+//PORTIFÓLIO
+
+.portfolio{
+    margin-top: 120px;
+    background-color: $preto;
+    padding: 80px;
+    width: 100%;
+    height: 100vh;
+}
+.imagem{
+    width: 250px;
+    height: 200px;
+   
+}
+.imagem1{
+  padding-left: 100px;
+}
