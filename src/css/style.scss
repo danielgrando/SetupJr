@@ -75,8 +75,6 @@ header .nav-item a:hover::after{
     border: none;
 }
 
-
-
 //SERVIÇOS
 
 
@@ -128,4 +126,26 @@ header .nav-item a:hover::after{
 }
 .imagem1{
   padding-left: 100px;
+}
+
+
+
+
+
+//SOBRE NÓS
+
+.margem-sobre{
+    margin-top:80px;
+}
+.foto1{
+    width: 500px;
+    height: 300px;
+    background-color: $preto;
+}
+.texto-sobre{
+    font-size: 15px;
+}
+.titulo-sobre{
+    font-weight: 700;
+    font-size: 20px;
 }
