@@ -10661,6 +10661,13 @@ header .nav-item a:hover::after {
   height: 65px;
 }
 
+.imagens:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
 .conteudo-servicos {
   margin-top: 80px;
 }
