@@ -10662,10 +10662,48 @@ header .nav-item a:hover::after {
 }
 
 .imagens:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
+  -webkit-animation: bbb 1s 1;
+          animation: bbb 1s 1;
+}
+
+@-webkit-keyframes bbb {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  100% {
+    ttransform: scale(1.3);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+}
+
+@keyframes bbb {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  100% {
+    ttransform: scale(1.3);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
 }
 
 .conteudo-servicos {
@@ -10797,6 +10835,14 @@ header .nav-item a:hover::after {
 }
 
 .margem-footer {
-  margin-top: 80px;
+  margin-top: 100px;
+}
+
+#setupjr {
+  color: #FFB300;
+}
+
+.texto-footer {
+  font-size: 80%;
 }
 /*# sourceMappingURL=style.css.map */
