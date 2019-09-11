@@ -19,7 +19,7 @@ $preto: #1A1A1A;
 }
 
 .navbar{
-    background-color: $azul1;
+    //background-color: $azul1;
 }
 .navbar-brand{
     color:white;
@@ -57,7 +57,7 @@ header .nav-item a:hover::after{
 }
 #titulo{
     font-size: 80px;
-    margin-top: 100px;
+    margin-top: 170px;
     color: $laranja1;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
     letter-spacing: 6px;
@@ -125,7 +125,7 @@ header .nav-item a:hover::after{
 
 //PORTIFÓLIO
 
-.portfolio{
+#portfolio{
     margin-top: 120px;
     background-color: $preto;
     padding: 80px;

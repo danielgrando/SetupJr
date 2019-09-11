@@ -10568,10 +10568,6 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
-  background-color: #0695F5;
-}
-
 .navbar-brand {
   color: white;
 }
@@ -10617,7 +10613,7 @@ header .nav-item a:hover::after {
 
 #titulo {
   font-size: 80px;
-  margin-top: 100px;
+  margin-top: 170px;
   color: #FFB300;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
   letter-spacing: 6px;
@@ -10708,7 +10704,7 @@ header .nav-item a:hover::after {
   font-size: 15px;
 }
 
-.portfolio {
+#portfolio {
   margin-top: 120px;
   background-color: #1A1A1A;
   padding: 80px;

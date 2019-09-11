@@ -15,25 +15,26 @@
 
 
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand ml-4" href="#">SetupJr</a>
+        <nav class="navbar navbar-expand-lg fixed-top menu">
+            <a class="navbar-brand ml-4 text-white" >SetupJr</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-align-right text-light"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mr-auto"></div>
                 <ul class="navbar-nav p-2">
                     <li class="nav-item">
-                        <a class="nav-link mr-4" href="#">Home</a>
+                        <a class="nav-link mr-4" href="#navbarNav">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mr-4" href="#">Serviços</a>
+                        <a class="nav-link mr-4" href="#servicos">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mr-4" href="#">Portfólio</a>
+                        <a class="nav-link mr-4" href="#portfolio">Portfólio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mr-4" href="#">Sobre</a>
+                        <a class="nav-link mr-4" href="#sobre">Sobre</a>
                     </li>
                     <button type="button" class="btn btn-light px-5 mr-3" id="btn-top">
                         Contato
@@ -59,7 +60,7 @@
     </header>
 
     <!-------------------SERVIÇOS-------------------->
-    <section>
+    <section id="servicos">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center mt-4">
@@ -81,7 +82,8 @@
                 <div class="col-md-4 text-center">
                     <img src="../src/assets/global.png" alt="Hospedagem" class="imagens mb-3">
                     <h3 class="titulo-servicos mb-2">Hospedagem</h3>
-                    <p>Criação de domínio e armazenamento de arquivos resultantes dos sites, a hospedagem é um dos
+                    <p class="texto">Criação de domínio e armazenamento de arquivos resultantes dos sites, a hospedagem
+                        é um dos
                         serviços oferecidos por nós.
                     </p>
                 </div>
@@ -90,14 +92,15 @@
                 <div class="col-md-4 text-center">
                     <img src="../src/assets/code.png" alt="Manutencao" class="imagens mb-3">
                     <h3 class="titulo-servicos mb-2">Manutenção</h3>
-                    <p>Nossa manutenção está composta de pequenas atualizações em landing pages até otimizações em
+                    <p class="texto">Nossa manutenção está composta de pequenas atualizações em landing pages até
+                        otimizações em
                         sites
                         personalizados. </p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="../src/assets/smartphone.png" alt="Smartphone" class="imagens mb-3">
                     <h3 class="titulo-servicos">Mobile</h3>
-                    <p>Tem uma ideia para aplicativo e quer lançar ? Ou quer automatizar seu negócio ?
+                    <p class="texto">Tem uma ideia para aplicativo e quer lançar ? Ou quer automatizar seu negócio ?
                         O desenvolvimento de Aplicativos Mobile é um dos nossos serviços oferecidos. </p>
                 </div>
             </div>
@@ -105,7 +108,7 @@
     </section>
 
     <!-------------------PORTIFÓLIO-------------------->
-    <section class="portfolio">
+    <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -167,7 +170,7 @@
 
 
     <!-------------------SOBRE NÓS------------------->
-    <section class="sobre-nos">
+    <section id="sobre">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center mt-5 ">
@@ -223,13 +226,14 @@
                             <i class="fab fa-instagram"></i>
                         </a>
                         <a class="botao-footer" href="#">
-                                <i class="far fa-envelope"></i>
+                            <i class="far fa-envelope"></i>
                         </a>
                         <a class="botao-footer" href="#">
                             <i class="fas fa-map-marker-alt"></i>
                         </a>
                     </div>
-                    <p class="text-white text-center texto-footer">Desenvolvido por <span id="setupjr">SetupJr</span></p>
+                    <p class="text-white text-center texto-footer">Desenvolvido por <span id="setupjr">SetupJr</span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -240,7 +244,7 @@
 
 
 
-
+    <script src="js/main.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
