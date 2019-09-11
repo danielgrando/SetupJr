@@ -105,16 +105,13 @@ header .nav-item a:hover::after{
 }
 
 @keyframes bbb {
-0%{
-    transform: scale(1.1);
-    transition: 0.2s linear;
-}50%{
-    transform: scale(1.2);
-    transition: 0.2s linear;
-}100%{
-  ttransform: scale(1.3);
-  transition: 0.2s linear;
-}
+    0%{
+        transform: scale(1.1);
+        transition: 0.2s linear;
+    }50%{
+        transform: scale(1.2);
+        transition: 0.2s linear;
+    }
 }
 .conteudo-servicos{
     margin-top: 80px;
@@ -150,7 +147,7 @@ header .nav-item a:hover::after{
 //SOBRE NÓS
 
 .margem-sobre{
-    margin-top:80px;
+    margin-top:60px;
 }
 .foto1{
     width: 500px;
@@ -219,7 +216,7 @@ header .nav-item a:hover::after{
     background-color: $azul1;
 }
 .margem-footer{
-    margin-top: 100px;
+    margin-top: 110px;
 }
 #setupjr{
     color: $laranja1;
