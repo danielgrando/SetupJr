@@ -10662,8 +10662,8 @@ header .nav-item a:hover::after {
 }
 
 .imagens:hover {
-  -webkit-animation: bbb 1s ease;
-          animation: bbb 1s ease;
+  -webkit-animation: bbb 1s 1;
+          animation: bbb 1s 1;
 }
 
 @-webkit-keyframes bbb {

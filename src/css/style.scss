@@ -101,7 +101,7 @@ header .nav-item a:hover::after{
     height: 65px;
 }
 .imagens:hover{
-    animation: bbb 1s ease;
+    animation: bbb 1s 1;
 }
 
 @keyframes bbb {
