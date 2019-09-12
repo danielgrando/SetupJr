@@ -10741,7 +10741,7 @@ header .nav-item a:hover::after {
   width: 90px;
   height: 90px;
   background: #f1f1f1;
-  margin: 10px;
+  margin: 20px 50px 0px 0px;
   border-radius: 30%;
   -webkit-box-shadow: 0 5px 15px -5px #00000070;
           box-shadow: 0 5px 15px -5px #00000070;
