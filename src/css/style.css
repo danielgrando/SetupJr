@@ -10568,6 +10568,10 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Montserrat', sans-serif;
 }
 
+.navbar {
+  background-color: #0695F5;
+}
+
 .navbar-brand {
   color: white;
 }
@@ -10658,22 +10662,18 @@ header .nav-item a:hover::after {
 }
 
 .imagens:hover {
-  -webkit-animation: bbb 1s 1;
-          animation: bbb 1s 1;
+  -webkit-animation: bbb 1s ease;
+          animation: bbb 1s ease;
 }
 
 @-webkit-keyframes bbb {
   0% {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
-    -webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
   }
   50% {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
-    -webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
   }
 }
 
@@ -10681,14 +10681,10 @@ header .nav-item a:hover::after {
   0% {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
-    -webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
   }
   50% {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
-    -webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
   }
 }
 
