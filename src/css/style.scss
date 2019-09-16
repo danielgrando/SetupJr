@@ -24,6 +24,7 @@ $preto: #1A1A1A;
     background: $azul1;
     z-index: 9999;
     transition: all 1.5s ease;
+    box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.35);
 }
 .navbar-brand{
     color:white;
@@ -84,7 +85,7 @@ header .nav-item a:hover::after{
     font-weight: 600;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
     font-size: 50px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 .hr{
@@ -122,10 +123,13 @@ header .nav-item a:hover::after{
     font-size: 15px;
 }
 
+
+
+
 //PORTIFÓLIO
 
 #portfolio{
-    margin-top: 120px;
+    margin-top: 110px;
     background-color: $preto;
     padding: 80px;
     width: 100%;
@@ -161,6 +165,8 @@ header .nav-item a:hover::after{
     font-size: 20px;
 }
 
+
+
 //FOOTER
 .botao-footer{
     display: inline-block;
@@ -188,7 +194,8 @@ header .nav-item a:hover::after{
     position: absolute;
     width: 120%;
     height: 120%;
-    background: #3498db;
+    //background: #3498db;
+    background: $preto;
     transform: rotate(45deg);
     left: -110%;
     top: 90%;

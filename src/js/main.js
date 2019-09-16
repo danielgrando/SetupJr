@@ -17,7 +17,7 @@ function scrollToPosition(to) {
 }
 function scrollToIdOnClick(event) {
 	event.preventDefault();
-	const to = getScrollTopByHref(event.currentTarget)- 80;
+	const to = getScrollTopByHref(event.currentTarget)- 74;
 	scrollToPosition(to);
 }
 
@@ -33,7 +33,6 @@ menuItems.forEach(item => {
 let navbar = $(".navbar");
 
 $(window).scroll(function () {
-  // get the complete hight of window
   let oTop = $("#servicos").offset().top - window.innerHeight;
   if ($(window).scrollTop() > oTop) {
     navbar.addClass("sticky");

@@ -10576,6 +10576,8 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 9999;
   -webkit-transition: all 1.5s ease;
   transition: all 1.5s ease;
+  -webkit-box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.35);
 }
 
 .navbar-brand {
@@ -10646,7 +10648,7 @@ header .nav-item a:hover::after {
   font-weight: 600;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
   font-size: 50px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 .hr {
@@ -10704,7 +10706,7 @@ header .nav-item a:hover::after {
 }
 
 #portfolio {
-  margin-top: 120px;
+  margin-top: 110px;
   background-color: #1A1A1A;
   padding: 80px;
   width: 100%;
@@ -10771,7 +10773,7 @@ header .nav-item a:hover::after {
   position: absolute;
   width: 120%;
   height: 120%;
-  background: #3498db;
+  background: #1A1A1A;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   left: -110%;
