@@ -10568,16 +10568,19 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
-  background-color: #0695F5;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #0695F5;
+  z-index: 9999;
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
 }
 
 .navbar-brand {
   color: white;
-}
-
-.navbar-brand:hover {
-  color: whitesmoke;
+  cursor: pointer;
 }
 
 #btn-top {
@@ -10617,7 +10620,7 @@ header .nav-item a:hover::after {
 
 #titulo {
   font-size: 80px;
-  margin-top: 170px;
+  margin-top: 140px;
   color: #FFB300;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
   letter-spacing: 6px;
@@ -10817,7 +10820,7 @@ header .nav-item a:hover::after {
 }
 
 .margem-footer {
-  margin-top: 110px;
+  margin-top: 130px;
 }
 
 #setupjr {

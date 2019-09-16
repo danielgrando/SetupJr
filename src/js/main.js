@@ -1,5 +1,6 @@
 
 //SCROLL
+
 const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 
 function getScrollTopByHref(element) {
@@ -23,3 +24,21 @@ function scrollToIdOnClick(event) {
 menuItems.forEach(item => {
 	item.addEventListener('click', scrollToIdOnClick);
 });
+
+
+
+ //MENU STICKY
+ 
+
+let navbar = $(".navbar");
+
+$(window).scroll(function () {
+  // get the complete hight of window
+  let oTop = $("#servicos").offset().top - window.innerHeight;
+  if ($(window).scrollTop() > oTop) {
+    navbar.addClass("sticky");
+  } else {
+	navbar.removeClass("sticky");
+  }
+});
+

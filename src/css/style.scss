@@ -17,16 +17,17 @@ $preto: #1A1A1A;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
-.navbar{
-    background-color: $azul1;
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: $azul1;
+    z-index: 9999;
+    transition: all 1.5s ease;
 }
 .navbar-brand{
     color:white;
-
-}
-.navbar-brand:hover{
-    color:whitesmoke;
+    cursor: pointer;
 }
 #btn-top{
     background-color: $laranja1;
@@ -34,7 +35,7 @@ $preto: #1A1A1A;
     font-weight: 300;
 }
 header .nav-item a{
-    color: $preto;
+    color:$preto;
     text-decoration: none;
     font-weight: 300;
 }
@@ -57,7 +58,7 @@ header .nav-item a:hover::after{
 }
 #titulo{
     font-size: 80px;
-    margin-top: 170px;
+    margin-top: 140px;
     color: $laranja1;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
     letter-spacing: 6px;
@@ -214,7 +215,7 @@ header .nav-item a:hover::after{
     background-color: $azul1;
 }
 .margem-footer{
-    margin-top: 110px;
+    margin-top: 130px;
 }
 #setupjr{
     color: $laranja1;
