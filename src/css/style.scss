@@ -5,7 +5,7 @@
 $laranja1: #FFB300;
 $laranja2: #E6BE5D;
 $laranja3: linear-gradient(to bottom, $laranja1, $laranja2);
-$preto: black;
+$preto1: black;
 $azul1: #0695F5;
 $azul2: rgba(44,168,237,0.38);
 $azul3:rgba(73,176,230,0);
@@ -36,7 +36,7 @@ $preto: #1A1A1A;
     font-weight: 300;
 }
 header .nav-item a{
-    color:$preto;
+    color: white;
     text-decoration: none;
     font-weight: 300;
 }
@@ -70,7 +70,7 @@ header .nav-item a:hover::after{
 }
 #btn-titulo{
     background: $laranja3;
-    color: white;
+    color:$preto;
     width: 230px; 
     position: absolute;
     margin-top: 120px;

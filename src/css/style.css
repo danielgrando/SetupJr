@@ -10592,7 +10592,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 header .nav-item a {
-  color: #1A1A1A;
+  color: white;
   text-decoration: none;
   font-weight: 300;
 }
@@ -10636,7 +10636,7 @@ header .nav-item a:hover::after {
 #btn-titulo {
   background: -webkit-gradient(linear, left top, left bottom, from(#FFB300), to(#E6BE5D));
   background: linear-gradient(to bottom, #FFB300, #E6BE5D);
-  color: white;
+  color: #1A1A1A;
   width: 230px;
   position: absolute;
   margin-top: 120px;
