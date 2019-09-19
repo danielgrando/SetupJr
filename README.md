@@ -1,2 +1,2 @@
 # SetupJr
-Site desenvolvido para a Empresa Júnior Setup.
+Site desenvolvido para a Empresa Júnior SetupJr.
