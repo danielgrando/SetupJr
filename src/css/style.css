@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10592,7 +10593,8 @@ html {
 #btn-top {
   background-color: #FFB300;
   border: none;
-  font-weight: 300;
+  font-weight: 600;
+  outline: none;
 }
 
 header .nav-item a {
@@ -10618,8 +10620,9 @@ header .nav-item a:hover::after {
 }
 
 .titulos {
-  background: -webkit-gradient(linear, left top, left bottom, from(#0695F5), color-stop(rgba(44, 168, 237, 0.38)), to(rgba(73, 176, 230, 0)));
-  background: linear-gradient(to bottom, #0695F5, rgba(44, 168, 237, 0.38), rgba(73, 176, 230, 0));
+  background-image: url(../assets/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   width: 100%;
 }
@@ -10628,7 +10631,7 @@ header .nav-item a:hover::after {
   font-size: 80px;
   margin-top: 140px;
   color: #FFB300;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   letter-spacing: 6px;
   -webkit-animation: text1 3s 1;
           animation: text1 3s 1;
@@ -10664,7 +10667,8 @@ header .nav-item a:hover::after {
 
 #sub {
   font-size: 37px;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   -webkit-animation: text2 3s 1;
           animation: text2 3s 1;
 }
@@ -10699,10 +10703,11 @@ header .nav-item a:hover::after {
   color: #1A1A1A;
   width: 230px;
   position: absolute;
-  margin-top: 120px;
+  margin-top: 110px;
   border: none;
   -webkit-animation: btn 4s 1;
           animation: btn 4s 1;
+  font-weight: 600;
 }
 
 @-webkit-keyframes btn {
@@ -10735,6 +10740,7 @@ header .nav-item a:hover::after {
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
   font-size: 50px;
   letter-spacing: 4px;
+  margin-top: 70px;
 }
 
 .hr {
@@ -10792,6 +10798,14 @@ header .nav-item a:hover::after {
   font-size: 15px;
 }
 
+.titulo-portifólio {
+  color: #FFB300;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+
 #portfolio {
   margin-top: 110px;
   background-color: #1A1A1A;
@@ -10810,6 +10824,14 @@ header .nav-item a:hover::after {
   padding-left: 100px;
 }
 
+.titulo-sobre {
+  color: #FFB300;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+
 .margem-sobre {
   margin-top: 60px;
 }
@@ -10824,7 +10846,7 @@ header .nav-item a:hover::after {
   font-size: 15px;
 }
 
-.titulo-sobre {
+.titulos-sobre {
   font-weight: 700;
   font-size: 20px;
 }

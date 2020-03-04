@@ -37,9 +37,54 @@
                     <li class="nav-item">
                         <a class="nav-link mr-4" href="#sobre">Sobre</a>
                     </li>
-                    <button type="button" class="btn btn-light px-5 mr-3" id="btn-top">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light px-4 mr-3" data-toggle="modal"
+                        data-target="#staticBackdrop " id="btn-top">
                         Contato
                     </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title h4" id="staticBackdropLabel">Entre em contato conosco!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1" class="ml-2">Nome/Empresa</label>
+                                            <input type="email" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1" class="ml-2">Email</label>
+                                            <input type="email" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1" class="ml-2">Telefone</label>
+                                            <input type="email" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Mensagem</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="3"></textarea>
+                                        </div>
+
+                                    </form>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success" data-dismiss="modal">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </ul>
             </div>
         </nav>
@@ -50,9 +95,10 @@
                     <div class="col-md-12 ml-2 col-sm-12">
                         <h1 class="font-weight-bold" id="titulo">SetupJr</h1>
                         <h6 class="mt-4" id="sub">Consultoria e Desenvolvimento</h6>
-                        <a href="#servicos"><button type="button" class="btn btn-light px-5 py-2 primary-btn rounded-pill" id="btn-titulo">
-                            Saiba Mais
-                        </button></a>
+                        <a href="#servicos"><button type="button"
+                                class="btn btn-light px-5 py-2 primary-btn rounded-pill" id="btn-titulo">
+                                Saiba Mais
+                            </button></a>
                     </div>
                 </div>
             </div>
@@ -112,7 +158,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 class="titulos-section">Portfólio</h1>
+                    <h1 class="titulo-portifólio">Portfólio</h1>
                     <hr class="hr mr-auto">
                 </div>
             </div>
@@ -218,7 +264,7 @@
         <div class="container">
             <div class="row mt-5">
                 <div class="col-md-12 text-center mt-5 mb-4">
-                    <h1 class="titulos-section">Sobre Nós</h1>
+                    <h1 class="titulo-sobre">Sobre Nós</h1>
                     <hr class="hr">
                 </div>
             </div>
@@ -229,7 +275,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 mb-5" data-anime="right">
-                    <p class="text-center mt-5 titulo-sobre">Quem Somos ?</p>
+                    <p class="text-center mt-5 titulos-sobre">Quem Somos ?</p>
                     <hr class="hr">
                     <p class="texto-sobre text-justify">
                         Composta exclusivamente por alunos do curso de Sistemas de Informação e Ciência da Computação da
@@ -241,7 +287,7 @@
             </div>
             <div class="row mt-5">
                 <div class="col-md-6" data-anime="left">
-                    <p class="text-center mt-5 titulo-sobre">O Movimento Empresa Junior! </p>
+                    <p class="text-center mt-5 titulos-sobre">O Movimento Empresa Junior! </p>
                     <hr class="hr">
                     <p class="texto-sobre text-justify mr-4">
                         Composta exclusivamente por alunos do curso de Sistemas de Informação e Ciência da Computação da
@@ -273,7 +319,8 @@
                     <a class="botao-footer" href="#">
                         <i class="far fa-envelope"></i>
                     </a>
-                    <a class="botao-footer" href="#">
+                    <a class="botao-footer"
+                        href="https://www.google.com.br/maps/place/Pr%C3%A9dio+Central+-+Universidade+Estadual+do+Norte+do+Paran%C3%A1+-+Campus+Luiz+Meneghel/@-23.1066251,-50.362621,17z/data=!3m1!4b1!4m5!3m4!1s0x94eac08fb9d5acd1:0xeb955cd1fb4d3a53!8m2!3d-23.10663!4d-50.3604323" target="_blank">
                         <i class="fas fa-map-marker-alt"></i>
                     </a>
                 </div>

@@ -37,7 +37,8 @@ html{
 #btn-top{
     background-color: $laranja1;
     border: none;
-    font-weight: 300;
+    font-weight: 600;
+    outline: none;
 }
 header .nav-item a{
     color: white;
@@ -57,7 +58,9 @@ header .nav-item a:hover::after{
 	transition: width .3s;
 }
 .titulos{
-    background: $azul4;
+    background-image: url(../assets/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100%;
 }
@@ -65,7 +68,7 @@ header .nav-item a:hover::after{
     font-size: 80px;
     margin-top: 140px;
     color: $laranja1;
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.20);
     letter-spacing: 6px;
     animation: text1 3s 1;
 }
@@ -85,7 +88,8 @@ header .nav-item a:hover::after{
 }
 #sub{
     font-size: 37px;
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.10);
     animation: text2 3s 1;
 }
 @keyframes text2{
@@ -104,9 +108,10 @@ header .nav-item a:hover::after{
     color:$preto;
     width: 230px; 
     position: absolute;
-    margin-top: 120px;
+    margin-top: 110px;
     border: none;
     animation: btn 4s 1;
+    font-weight: 600;
 }
 @keyframes btn{
     0%{
@@ -120,6 +125,10 @@ header .nav-item a:hover::after{
     }
 }
 
+// MODAL
+
+
+
 //SERVIÇOS
 
 
@@ -129,6 +138,7 @@ header .nav-item a:hover::after{
     text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
     font-size: 50px;
     letter-spacing: 4px;
+    margin-top: 70px;
 }
 
 .hr{
@@ -172,6 +182,14 @@ header .nav-item a:hover::after{
 
 //PORTIFÓLIO
 
+.titulo-portifólio{
+    color:$laranja1;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
 #portfolio{
     margin-top: 110px;
     background-color: $preto;
@@ -194,6 +212,15 @@ header .nav-item a:hover::after{
 
 //SOBRE NÓS
 
+
+.titulo-sobre{
+    color:$laranja1;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.16);
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
 .margem-sobre{
     margin-top:60px;
 }
@@ -205,7 +232,7 @@ header .nav-item a:hover::after{
 .texto-sobre{
     font-size: 15px;
 }
-.titulo-sobre{
+.titulos-sobre{
     font-weight: 700;
     font-size: 20px;
 }
