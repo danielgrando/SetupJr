@@ -10849,6 +10849,18 @@ header .nav-item a:hover::after {
   cursor: pointer;
   width: 250px;
   height: 200px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imagem:hover {
+  opacity: 0.8;
+}
+
+.modal-image {
+  margin-top: 150px;
 }
 
 .titulo-sobre {
@@ -10880,8 +10892,8 @@ header .nav-item a:hover::after {
 
 .botao-footer {
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background: #f1f1f1;
   margin: 20px 50px 0px 0px;
   border-radius: 30%;
@@ -10893,7 +10905,7 @@ header .nav-item a:hover::after {
 }
 
 .botao-footer i {
-  line-height: 80px;
+  line-height: 70px;
   font-size: 26px;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
