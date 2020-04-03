@@ -10595,6 +10595,12 @@ html {
   background-color: #FFB300;
   border: none;
   font-weight: 600;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#btn-top:hover {
+  color: white;
 }
 
 #btn-top:focus {
@@ -10627,6 +10633,8 @@ header .nav-item a:hover::after {
   background-image: url(../assets/wallpaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
   height: 100vh;
   width: 100%;
 }
@@ -10716,7 +10724,13 @@ header .nav-item a:hover::after {
   border: none;
   -webkit-animation: btn 4s 1;
           animation: btn 4s 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   font-weight: 600;
+}
+
+#btn-titulo:hover {
+  color: white;
 }
 
 @-webkit-keyframes btn {
@@ -10752,8 +10766,8 @@ header .nav-item a:hover::after {
   cursor: pointer;
   font-size: 16px;
   margin: 20px 0 0 0;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   font-weight: 600;
 }
 
@@ -10860,7 +10874,7 @@ header .nav-item a:hover::after {
 }
 
 .modal-image {
-  margin-top: 150px;
+  margin-top: 90px;
 }
 
 .titulo-sobre {
@@ -10877,7 +10891,7 @@ header .nav-item a:hover::after {
 
 .foto1 {
   width: 500px;
-  height: 300px;
+  height: 350px;
   background-color: #1A1A1A;
 }
 
@@ -10979,7 +10993,7 @@ header .nav-item a:hover::after {
 }
 
 .texto-footer {
-  font-size: 80%;
+  font-size: 70%;
 }
 
 [data-anime] {
