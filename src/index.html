@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg menu">
             <a class="navbar-brand ml-4">
                 <img src="./assets/logo.png" width="80" height="70"
-                    class="d-inline-block align-top" alt="logo">
+                    class="d-inline-block align-top img-fluid" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,8 +40,9 @@
                     <li class="nav-item">
                         <a class="nav-link mr-4" href="#sobre">Sobre</a>
                     </li>
+                </ul>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light px-4 mr-3" data-toggle="modal"
+                    <button type="button" class="btn btn-light px-4 py-2 mr-3" data-toggle="modal"
                         data-target="#staticBackdrop " id="btn-top">
                         Contato
                     </button>
@@ -58,37 +59,32 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <form>
+                                    <form method="POST" action="./php/email.php">
                                         <div class="form-group">
-                                            <label for="exampleFormControlInput1" class="ml-2">Nome/Empresa</label>
-                                            <input type="email" class="form-control">
+                                            <label class="ml-2">Nome/Empresa</label>
+                                            <input type="text" name = "name" class="form-control">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleFormControlInput1" class="ml-2">Email</label>
-                                            <input type="email" class="form-control">
+                                            <label  class="ml-2">Email</label>
+                                            <input type="text" name = "email" class="form-control">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleFormControlInput1" class="ml-2">Telefone</label>
-                                            <input type="email" class="form-control">
+                                            <label  class="ml-2">Telefone</label>
+                                            <input type="text" name = "phone" class="form-control">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleFormControlTextarea1">Mensagem</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            <label class="ml-2" >Mensagem</label>
+                                            <textarea class="form-control" name = "mesage" id="exampleFormControlTextarea1"
                                                 rows="3"></textarea>
                                         </div>
-
+                                        <div class="modal-footer">
+                                            <input id="btn-modal" class="rounded" type="submit" value="Enviar">
+                                        </div>
                                     </form>
-
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                    <button type="button" class="btn btn-success" data-dismiss="modal">Enviar</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </ul>
+                    </div> 
             </div>
         </nav>
 
@@ -120,7 +116,7 @@
             </div>
             <div class="row conteudo-servicos justify-content-center" data-anime="top">
                 <div class="col-md-4 text-center">
-                    <img src="../src/assets/site.png" alt="Site" class="imagens mb-3">
+                    <img src="../src/assets/site.png" alt="Site" class="imagens mb-3 img-fluid">
                     <h3 class="titulo-servicos mb-2">Sites</h3>
                     <p class="texto">Quer anunciar sua marca ou negócio ?<br>
                         Nós da SetupJr tornamos isso realidade!
@@ -129,7 +125,7 @@
                         cliente, todos com responsividade para dispositivos móveis.</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="../src/assets/global.png" alt="Hospedagem" class="imagens mb-3">
+                    <img src="../src/assets/global.png" alt="Hospedagem" class="imagens mb-3 img-fluid">
                     <h3 class="titulo-servicos mb-2">Hospedagem</h3>
                     <p class="texto">Criação de domínio e armazenamento de arquivos resultantes de sites, a hospedagem
                         é um dos
@@ -139,7 +135,7 @@
             </div>
             <div class="row conteudo-servicos justify-content-center" data-anime="top">
                 <div class="col-md-4 text-center">
-                    <img src="../src/assets/code.png" alt="Manutencao" class="imagens mb-3">
+                    <img src="../src/assets/code.png" alt="Manutencao" class="imagens mb-3 img-fluid">
                     <h3 class="titulo-servicos mb-2">Manutenção</h3>
                     <p class="texto">Nossa manutenção está composta de pequenas atualizações em landing pages até
                         otimizações em
@@ -147,7 +143,7 @@
                         personalizados. </p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="../src/assets/smartphone.png" alt="Smartphone" class="imagens mb-3">
+                    <img src="../src/assets/smartphone.png" alt="Smartphone" class="imagens mb-3 img-fluid">
                     <h3 class="titulo-servicos">Mobile</h3>
                     <p class="texto">Tem uma ideia para aplicativo e quer lançar ? Quer automatizar seu negócio ?
                         O desenvolvimento de Aplicativos Mobile é um dos nossos serviços oferecidos. </p>
@@ -170,22 +166,22 @@
                     <div id="meucarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-4">
-                                        <div class="imagem1">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-3">
+                                        <div class="">
                                             <img class="d-block img-fluid imagem mt-5"
-                                                src="../src/assets/atelie_grande.png" alt="">
+                                                src="../src/assets/atelie_grande.png" id="atelie" alt="">
                                             <p class="text-white mt-2">Atelie</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 d-none d-md-block">
-                                        <div class="ml-5">
+                                    <div class="col-md-3 d-none d-md-block">
+                                        <div class="">
                                             <img class="d-block img-fluid imagem mt-5"
                                                 src="../src/assets/flora_grande.png" alt="">
                                             <p class="text-white mt-2">Flora</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 d-none d-md-block">
+                                    <div class="col-md-3 d-none d-md-block">
                                         <div class="">
                                             <img class="d-block img-fluid imagem mt-5"
                                                 src="../src/assets/odontologia_grande.png" alt="">
@@ -195,22 +191,22 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-4">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-3">
                                         <div class="imagem1">
                                             <img class="d-block img-fluid imagem mt-5"
                                                 src="../src/assets/hipernegocios_grande.png" alt="">
                                             <p class="text-white mt-2">Atelie</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 d-none d-md-block">
-                                        <div class="ml-5">
+                                    <div class="col-md-3 d-none d-md-block">
+                                        <div class="">
                                             <img class="d-block img-fluid imagem mt-5" src="../src/assets/idnorp.png"
                                                 alt="">
                                             <p class="text-white mt-2">Flora</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 d-none d-md-block">
+                                    <div class="col-md-3 d-none d-md-block">
                                         <div class="">
                                             <img class="d-block img-fluid imagem mt-5"
                                                 src="../src/assets/radiocabiuna_grande.png" alt="">
@@ -220,22 +216,22 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-4">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-3">
                                         <div class="imagem1">
                                             <img class="d-block img-fluid imagem mt-5" src="../src/assets/idnorp.png"
                                                 alt="">
                                             <p class="text-white mt-2">Atelie</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 d-none d-md-block">
-                                        <div class="ml-5">
+                                    <div class="col-md-3 d-none d-md-block">
+                                        <div class="">
                                             <img class="d-block img-fluid imagem mt-5"
                                                 src="../src/assets/kacifelab_grande.png" alt="">
                                             <p class="text-white mt-2">Flora</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 d-none d-md-block">
+                                    <div class="col-md-3 d-none d-md-block">
                                         <div class="">
                                             <img class="d-block img-fluid imagem mt-5"
                                                 src="../src/assets/sempreinove_grande.png" alt="">
@@ -245,15 +241,13 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#meucarousel" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" id="prev" href="#meucarousel" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon teste" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
-
                         </a>
                         <a class="carousel-control-next " href="#meucarousel" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
-
                         </a>
                     </div>
                 </div>

@@ -10566,6 +10566,8 @@ a.text-dark:hover, a.text-dark:focus {
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -10593,7 +10595,10 @@ html {
   background-color: #FFB300;
   border: none;
   font-weight: 600;
-  outline: none;
+}
+
+#btn-top:focus {
+  outline: none !important;
 }
 
 header .nav-item a {
@@ -10628,7 +10633,7 @@ header .nav-item a:hover::after {
 
 #titulo {
   font-size: 80px;
-  margin-top: 140px;
+  margin-top: 110px;
   color: black;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   letter-spacing: 6px;
@@ -10738,6 +10743,28 @@ header .nav-item a:hover::after {
   }
 }
 
+#btn-modal {
+  border: 2px solid #FFB300;
+  background-color: #FFB300;
+  color: black;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  font-weight: 600;
+}
+
+#btn-modal:hover {
+  color: white;
+}
+
+#btn-modal:focus {
+  outline: none;
+}
+
 .titulos-section {
   color: #FFB300;
   font-weight: 600;
@@ -10822,10 +10849,6 @@ header .nav-item a:hover::after {
   cursor: pointer;
   width: 250px;
   height: 200px;
-}
-
-.imagem1 {
-  padding-left: 100px;
 }
 
 .titulo-sobre {
