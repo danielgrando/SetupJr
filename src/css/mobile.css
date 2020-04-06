@@ -1,3 +1,8 @@
 @media (max-width: 768px){
-  
+    .imagem{
+        margin-left: 8px;
+    }
+    .modal-image{
+        margin-top: 160px;
+    }
 }
