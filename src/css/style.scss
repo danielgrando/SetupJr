@@ -21,6 +21,7 @@ $preto: #1A1A1A;
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 .sticky {
     position: fixed;
@@ -365,4 +366,3 @@ header .nav-item a:hover::after{
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }
-
