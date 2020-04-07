@@ -10904,6 +10904,10 @@ header .nav-item a:hover::after {
   font-size: 20px;
 }
 
+.padding-bottom {
+  padding-bottom: 150px;
+}
+
 .botao-footer {
   display: inline-block;
   width: 70px;
@@ -10982,10 +10986,6 @@ header .nav-item a:hover::after {
 
 .footer {
   background-color: #0695F5;
-}
-
-.margem-footer {
-  margin-top: 180px;
 }
 
 #setupjr {
