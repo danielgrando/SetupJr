@@ -274,18 +274,16 @@ header .nav-item a:hover::after{
 
 #teste{
     background-image: url("../assets/teste.png");
-    background-size: 65%;
     background-repeat: no-repeat;
+    background-size: 70%;
     overflow: hidden;
     padding: 100px 0 ;
 }
 #teste2{
-    background:white;
-    width: 55%;
-    float: right;
-    margin-top: -40px;
-    border-radius: 5px;
-    box-shadow: 9px 16px 25px -18px rgba(0,0,0,0.7);
+    background-color: rgba(255, 255, 255,1);
+    margin-top: -45px;
+    border-radius: 3px;
+    box-shadow: -9px 16px 25px -18px rgba(0,0,0,0.3);
 }
 
 
@@ -297,7 +295,7 @@ header .nav-item a:hover::after{
     //color: #545454;
 }
 .titulos-sobre{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 20px;
 }
 .padding-bottom{
@@ -356,9 +354,23 @@ header .nav-item a:hover::after{
       left: -10%;
     }
 }
-.footer{
+/*.footer{
     background-color: $azul1;
 }
+*/
+
+.wave{
+    overflow: hidden;
+}
+#teste3{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 30%;
+}
+
+
+
+
 #setupjr{
     color: $laranja1;
 }

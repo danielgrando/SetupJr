@@ -9,4 +9,14 @@
         padding: 10px;
         margin-left: 10px;
     }
+    #wave{
+        display: none;
+    }
+    #teste3{
+        background-color: #0695F5;
+        margin-left: auto;
+    }
+
+     
+
 }
