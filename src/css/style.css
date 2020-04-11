@@ -10868,6 +10868,7 @@ header .nav-item a:hover::after {
   transition: all 0.5s ease;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 3px;
 }
 
 .imagem:hover {
