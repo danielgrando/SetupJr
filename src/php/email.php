@@ -7,14 +7,14 @@ if(isset($POST['email']) && !empty($POST['email'])){
     $mensagem = addslashes($POST['mesage']);
 
 
-    $to = "setupjr@hotmail.com";
+    $to = "contato@setupjr.com.br";
     $subject = "Contato - Orçamento";
     $body = "Nome: ".$nome "\r\n".
             "Email: ".$email "\r\n".
             "Telefone: ".$telefone "\r\n". 
             "Mensagem: ".$mensagem;
             
-    $header = "From: setupjr@hotmail.com"."\r\n"
+    $header = "From: contato@setupjr.com.br"."\r\n"
             ."Reply-To: ".$email. "\r\n"
             ."X=Mailer:PHP/".phpversion();
 

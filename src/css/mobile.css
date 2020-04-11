@@ -12,11 +12,23 @@
     #wave{
         display: none;
     }
-    #teste3{
+    #wave-content{
         background-color: #0695F5;
-        margin-left: auto;
+        width: 100%;
+        margin-top: auto;
+        overflow: hidden;
     }
+}
 
-     
 
+@media (max-width: 1280px){
+    #wave{
+        display: none;
+    }
+    #wave-content{
+        background-color: #0695F5;
+        width: 100%;
+        margin-top: auto;
+        overflow: hidden;
+    }
 }

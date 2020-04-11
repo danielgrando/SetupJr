@@ -10573,7 +10573,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 .sticky {
@@ -10780,6 +10779,11 @@ header .nav-item a:hover::after {
   outline: none;
 }
 
+.modal-open {
+  padding-right: 0px !important;
+  overflow-y: scroll;
+}
+
 .titulos-section {
   color: #FFB300;
   font-weight: 600;
@@ -10907,7 +10911,7 @@ header .nav-item a:hover::after {
 
 #teste2 {
   background-color: white;
-  margin-top: -45px;
+  margin-top: -35px;
   border-radius: 3px;
   -webkit-box-shadow: -9px 16px 25px -18px rgba(0, 0, 0, 0.3);
           box-shadow: -9px 16px 25px -18px rgba(0, 0, 0, 0.3);
@@ -10921,10 +10925,6 @@ header .nav-item a:hover::after {
 .titulos-sobre {
   font-weight: 800;
   font-size: 20px;
-}
-
-.padding-bottom {
-  padding-bottom: 150px;
 }
 
 .botao-footer {
@@ -11003,18 +11003,13 @@ header .nav-item a:hover::after {
   }
 }
 
-/*.footer{
-    background-color: $azul1;
-}
-*/
 .wave {
   overflow: hidden;
 }
 
-#teste3 {
-  position: absolute;
+#wave-content {
+  position: relative;
   margin-top: -10%;
-  margin-left: 30%;
 }
 
 #setupjr {
