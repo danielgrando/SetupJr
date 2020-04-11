@@ -268,10 +268,33 @@ header .nav-item a:hover::after{
 .foto1{
     width: 500px;
     height: 350px;
-    background-color: $preto;
+    background-color: $preto; 
 }
+
+
+#teste{
+    background-image: url("../assets/teste.png");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 100px 0 ;
+}
+#teste2{
+    background:white;
+    width: 55%;
+    float: right;
+    margin-top: -40px;
+    border-radius: 5px;
+    box-shadow: 9px 16px 25px -18px rgba(0,0,0,0.7);
+}
+
+
+
+
 .texto-sobre{
     font-size: 15px;
+    line-height: 25px;
+    //color: #545454;
 }
 .titulos-sobre{
     font-weight: 700;
@@ -284,6 +307,7 @@ header .nav-item a:hover::after{
 
 
 //FOOTER
+
 .botao-footer{
     display: inline-block;
     width: 70px;
@@ -332,7 +356,6 @@ header .nav-item a:hover::after{
       left: -10%;
     }
 }
-
 .footer{
     background-color: $azul1;
 }
