@@ -5,4 +5,11 @@
     .modal-image{
         margin-top: 160px;
     }
+    .nav-item{
+        padding: 10px;
+    }
+    #btn-top{
+        padding: 10px;
+        margin-left: 10px;
+    }
 }
