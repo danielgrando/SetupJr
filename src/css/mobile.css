@@ -15,9 +15,15 @@
     #wave-content{
         background-color: #0695F5;
         width: 100%;
-        margin-top: auto;
         overflow: hidden;
     }
+    #imagem-sobre{
+        background-size: 100%;
+    }
+    #quem-somos{
+        margin-top: 250px;
+    }
+
 }
 
 
@@ -28,7 +34,7 @@
     #wave-content{
         background-color: #0695F5;
         width: 100%;
-        margin-top: auto;
+        margin-top: 5rem;
         overflow: hidden;
     }
 }
