@@ -63,7 +63,7 @@ header .nav-item a::after{
 }
 header .nav-item a:hover::after{
 	width: 100%;
-	transition: width .3s;
+	transition: width .4s;
 }
 .titulos{
     background-image: url(../assets/wallpaper.jpg);
@@ -281,7 +281,7 @@ header .nav-item a:hover::after{
     background-repeat: no-repeat;
     background-size: 70%;
     overflow: hidden;
-    padding: 110px 0 ;
+    padding: 110px 0;
 }
 
 #quem-somos{
@@ -290,8 +290,6 @@ header .nav-item a:hover::after{
     border-radius: 3px;
     box-shadow: 2px 1px 10px -1px rgba(0,0,0,0.2);
 }
-
-
 
 .texto-sobre{
     font-size: 15px;

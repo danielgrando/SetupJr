@@ -10625,8 +10625,8 @@ header .nav-item a::after {
 
 header .nav-item a:hover::after {
   width: 100%;
-  -webkit-transition: width .3s;
-  transition: width .3s;
+  -webkit-transition: width .4s;
+  transition: width .4s;
 }
 
 .titulos {
