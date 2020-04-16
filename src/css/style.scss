@@ -38,15 +38,17 @@ html{
 }
 #btn-top{
     background-color: $laranja1;
-    border: none;
+    border: 1px solid #FFB300;
     font-weight: 600;
     transition: all 0.5s ease;
 }
 #btn-top:hover{
     color:white;
+    background: transparent;
 }
 #btn-top:focus{
-    outline: none !important;
+    outline: 0;
+    box-shadow: none;
 }
 header .nav-item a{
     color: white;
@@ -125,12 +127,17 @@ header .nav-item a:hover::after{
     margin-top: 110px;
     border: none;
     animation: btn 4s 1;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
     font-weight: 600;
 }
 #btn-titulo:hover{
     color: white;
 }
+#btn-titulo:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
 @keyframes btn{
     0%{
         opacity: 0;

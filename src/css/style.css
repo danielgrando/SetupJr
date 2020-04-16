@@ -10593,7 +10593,7 @@ html {
 
 #btn-top {
   background-color: #FFB300;
-  border: none;
+  border: 1px solid #FFB300;
   font-weight: 600;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -10601,10 +10601,13 @@ html {
 
 #btn-top:hover {
   color: white;
+  background: transparent;
 }
 
 #btn-top:focus {
-  outline: none !important;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 header .nav-item a {
@@ -10724,13 +10727,19 @@ header .nav-item a:hover::after {
   border: none;
   -webkit-animation: btn 4s 1;
           animation: btn 4s 1;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
   font-weight: 600;
 }
 
 #btn-titulo:hover {
   color: white;
+}
+
+#btn-titulo:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 @-webkit-keyframes btn {
