@@ -1,2 +1,2 @@
 # SetupJr
-Site desenvolvido para a Empresa Júnior SetupJr, presente na UENP - Universidade Estadual do Norte do Paraná.
+### Website developed for the Junior Company SetupJr, present at UENP - State University of Northern Paraná.
